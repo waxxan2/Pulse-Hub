@@ -10,7 +10,7 @@ _G.displayName = displayName
 -- Eksik olan repsPerTick değişkenini buraya ekliyoruz (İstediğiniz sayı yapabilirsiniz)
 local repsPerTick = 1 
 
-local window = library:AddWindow("Nup Hub | Muscle Legends || HI - ".. displayName, {
+local window = library:AddWindow("Pulse Hub | Muscle Legends || HI - ".. displayName, {
     title_bar = {
         Color3.fromRGB(180, 0, 255),
         Color3.fromRGB(60, 0, 100),

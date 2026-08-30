@@ -16,13 +16,13 @@ _0xMF.Draggable = true
 Instance.new("UICorner", _0xMF).CornerRadius = UDim.new(0, 10)
 
 local _0xST = Instance.new("UIStroke", _0xMF)
-_0xST.Color = Color3.fromRGB(130, 0, 160) 
+_0xST.Color = Color3.fromRGB(255, 0, 0) -- Kırmızı yapıldı (İstesen mor için: 150, 0, 255 yapabilirsin)
 _0xST.Thickness = 2.5
 
 local _0xTL = Instance.new("TextLabel", _0xMF)
 _0xTL.Text = "Pulse Hub 🔥"
 _0xTL.Size = UDim2.new(1, 0, 0, 50)
-_0xTL.TextColor3 = Color3.fromRGB(130, 0, 160)
+_0xTL.TextColor3 = Color3.fromRGB(255, 0, 0) -- Kırmızı yapıldı
 _0xTL.BackgroundTransparency = 1
 _0xTL.Font = Enum.Font.GothamBold
 _0xTL.TextSize = 20
@@ -43,7 +43,7 @@ local _0xSB = Instance.new("TextButton", _0xMF)
 _0xSB.Text = "SUBMIT KEY"
 _0xSB.Position = UDim2.new(0.1, 0, 0.54, 0)
 _0xSB.Size = UDim2.new(0.8, 0, 0, 38)
-_0xSB.BackgroundColor3 = Color3.fromRGB(130, 0, 160)
+_0xSB.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Kırmızı yapıldı
 _0xSB.TextColor3 = Color3.fromRGB(255, 255, 255)
 _0xSB.Font = Enum.Font.GothamBold
 _0xSB.TextSize = 16
@@ -54,7 +54,7 @@ local _0xGK = Instance.new("TextButton", _0xMF)
 _0xGK.Text = "GET KEY"
 _0xGK.Position = UDim2.new(0.1, 0, 0.77, 0)
 _0xGK.Size = UDim2.new(0.8, 0, 0, 35)
-_0xGK.BackgroundColor3 = Color3.fromRGB(130, 0, 160)
+_0xGK.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Kırmızı yapıldı
 _0xGK.TextColor3 = Color3.fromRGB(255, 255, 255)
 _0xGK.Font = Enum.Font.GothamBold
 _0xGK.TextSize = 16
@@ -72,13 +72,13 @@ LoaderFrame.ClipsDescendants = true
 Instance.new("UICorner", LoaderFrame).CornerRadius = UDim.new(0, 12)
 
 local LoaderStroke = Instance.new("UIStroke", LoaderFrame)
-LoaderStroke.Color = Color3.fromRGB(130, 0, 160)
+LoaderStroke.Color = Color3.fromRGB(255, 0, 0)
 LoaderStroke.Thickness = 2.5
 
 local LoaderTitle = Instance.new("TextLabel", LoaderFrame)
 LoaderTitle.Text = "PULSE LOADER || V2"
 LoaderTitle.Size = UDim2.new(1, 0, 0, 55)
-LoaderTitle.TextColor3 = Color3.fromRGB(130, 0, 160)
+LoaderTitle.TextColor3 = Color3.fromRGB(255, 0, 0)
 LoaderTitle.BackgroundTransparency = 1
 LoaderTitle.Font = Enum.Font.GothamBold
 LoaderTitle.TextSize = 20
@@ -90,7 +90,7 @@ ScrollContainer.Position = UDim2.new(0, 10, 0, 60)
 ScrollContainer.BackgroundTransparency = 1
 ScrollContainer.CanvasSize = UDim2.new(0, 0, 0, 400)
 ScrollContainer.ScrollBarThickness = 3
-ScrollContainer.ScrollBarImageColor3 = Color3.fromRGB(130, 0, 160)
+ScrollContainer.ScrollBarImageColor3 = Color3.fromRGB(255, 0, 0)
 ScrollContainer.BorderSizePixel = 0
 
 local ScrollLayout = Instance.new("UIListLayout", ScrollContainer)
@@ -109,7 +109,7 @@ local function CreatePulseBtn(name, scriptURL)
     Instance.new("UICorner", btn)
     
     local btnStroke = Instance.new("UIStroke", btn)
-    btnStroke.Color = Color3.fromRGB(100, 0, 130) 
+    btnStroke.Color = Color3.fromRGB(200, 0, 0) 
     btnStroke.Thickness = 2
 
     btn.MouseButton1Click:Connect(function()
@@ -143,10 +143,10 @@ _0xSB.MouseButton1Click:Connect(function()
         end)
     else
         _0xSB.Text = "WRONG KEY!"
-        _0xSB.BackgroundColor3 = Color3.fromRGB(130, 0, 160)
+        _0xSB.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
         task.wait(1)
         _0xSB.Text = "SUBMIT KEY"
-        _0xSB.BackgroundColor3 = Color3.fromRGB(130, 0, 160)
+        _0xSB.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
     end
 end)
 

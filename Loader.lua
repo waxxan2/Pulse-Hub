@@ -169,7 +169,7 @@ local function CreatePulseBtn(name, scriptURL)
     end)
 end
 
-CreatePulseBtn("Muscle Legends", "https://raw.githubusercontent.com/waxxan2/Pulsee/refs/heads/main/loader.lua")
+CreatePulseBtn("Muscle Legends", "https://github.com/waxxan2/Pulse-/raw/refs/heads/main/Gui.lua.txt")
 
 -- Key Verification Event
 _0xSB.MouseButton1Click:Connect(function()

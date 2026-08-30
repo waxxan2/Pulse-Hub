@@ -1,6 +1,6 @@
 -- [[ IF YOU DON'T INCLUDE MY NAME IN THE CREDITS, I'LL LEAK YOUR SCRIPT ♥️ ]]
 
-local _0xK = "Syniox-X-Yusuf" 
+local _0xK = "YUSUFBABA" 
 local TweenService = game:GetService("TweenService")
 
 local _0xCG = game:GetService("CoreGui")

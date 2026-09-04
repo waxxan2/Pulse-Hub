@@ -171,7 +171,7 @@ end
 
 CreatePulseBtn("Muscle Legends", "https://raw.githubusercontent.com/waxxan2/Pulsee/refs/heads/main/loader.lua")
 CreatePulseBtn("Steal a brainrot", "https://github.com/waxxan2/PulseSab/raw/refs/heads/main/Steal%20a%20brainrot%20sc%201.txt")
-CreatePulseBtn("sab düel", "https://github.com/waxxan2/PulseDuel/raw/refs/heads/main/Chiron%20Duels%20V3.txt")
+CreatePulseBtn("sab duels", "https://github.com/waxxan2/PulseDuel/raw/refs/heads/main/Chiron%20Duels%20V3.txt")
 
 -- Key Verification Event
 _0xSB.MouseButton1Click:Connect(function()

@@ -174,7 +174,7 @@ local function CreatePulseBtn(name, scriptURL)
 end
 
 CreatePulseBtn("Muscle Legends", "https://github.com/waxxan2/PulsePublic/raw/refs/heads/main/Pulse%20Hub%20(1).txt")
-
+CreatePulseBtn("Legends Of Speed", "https://github.com/waxxan2/Legends-of-speed/raw/refs/heads/main/LegendOfSpeedSource%20(1).txt")
 -- Key Verification Event
 _0xSB.MouseButton1Click:Connect(function()
     if _0xKI.Text == _0xK then

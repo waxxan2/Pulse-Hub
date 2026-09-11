@@ -1,6 +1,6 @@
 -- [[ IF YOU DON'T INCLUDE MY NAME IN THE CREDITS, I'LL LEAK YOUR SCRIPT ♥️ ]]
 
-local _0xK = "Pulse-Hub" 
+local _0xK = "KryvexHub" 
 local TweenService = game:GetService("TweenService")
 local Players = game:GetService("Players")
 
@@ -23,7 +23,7 @@ _0xST.Thickness = 2.0
 
 -- Title
 local _0xTL = Instance.new("TextLabel", _0xMF)
-_0xTL.Text = "Pulse Hub Key System"
+_0xTL.Text = "Kryvex Hub Key System"
 _0xTL.Position = UDim2.new(0, 20, 0, 15)
 _0xTL.Size = UDim2.new(0, 330, 0, 25)
 _0xTL.TextColor3 = Color3.fromRGB(240, 240, 240)

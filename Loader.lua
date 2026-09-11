@@ -8,9 +8,9 @@ local _0xCG = game:GetService("CoreGui")
 local _0xSG = Instance.new("ScreenGui", _0xCG)
 _0xSG.Name = "YsfVIP_GUI"
 
--- Modern Key System Frame (Açık Kırmızı Tema)
+-- Modern Key System Frame (Açık ve Canlı Kırmızı Tema)
 local _0xMF = Instance.new("Frame", _0xSG)
-_0xMF.BackgroundColor3 = Color3.fromRGB(50, 15, 15)
+_0xMF.BackgroundColor3 = Color3.fromRGB(90, 25, 25)
 _0xMF.Position = UDim2.new(0.5, -185, 0.5, -115)
 _0xMF.Size = UDim2.new(0, 370, 0, 230) 
 _0xMF.Active = true
@@ -18,7 +18,7 @@ _0xMF.Draggable = true
 Instance.new("UICorner", _0xMF).CornerRadius = UDim.new(0, 10)
 
 local _0xST = Instance.new("UIStroke", _0xMF)
-_0xST.Color = Color3.fromRGB(200, 40, 40)
+_0xST.Color = Color3.fromRGB(255, 90, 90)
 _0xST.Thickness = 2.0
 
 -- Title
@@ -26,7 +26,7 @@ local _0xTL = Instance.new("TextLabel", _0xMF)
 _0xTL.Text = "Kryvex Hub Key System"
 _0xTL.Position = UDim2.new(0, 20, 0, 15)
 _0xTL.Size = UDim2.new(0, 330, 0, 25)
-_0xTL.TextColor3 = Color3.fromRGB(255, 230, 230)
+_0xTL.TextColor3 = Color3.fromRGB(255, 240, 240)
 _0xTL.BackgroundTransparency = 1
 _0xTL.Font = Enum.Font.GothamBold
 _0xTL.TextSize = 18
@@ -37,21 +37,21 @@ local _0xSub = Instance.new("TextLabel", _0xMF)
 _0xSub.Text = "Please enter your key to access Pulse Hub."
 _0xSub.Position = UDim2.new(0, 20, 0, 42)
 _0xSub.Size = UDim2.new(0, 330, 0, 20)
-_0xSub.TextColor3 = Color3.fromRGB(255, 180, 180)
+_0xSub.TextColor3 = Color3.fromRGB(255, 200, 200)
 _0xSub.BackgroundTransparency = 1
 _0xSub.Font = Enum.Font.Gotham
 _0xSub.TextSize = 12
 _0xSub.TextXAlignment = Enum.TextXAlignment.Left
 
--- Key Input Box Container (Orta Kırmızı Kutu)
+-- Key Input Box Container (Açık Kırmızı Kutu)
 local InputContainer = Instance.new("Frame", _0xMF)
-InputContainer.BackgroundColor3 = Color3.fromRGB(80, 20, 20)
+InputContainer.BackgroundColor3 = Color3.fromRGB(120, 35, 35)
 InputContainer.Position = UDim2.new(0, 20, 0, 75)
 InputContainer.Size = UDim2.new(0, 330, 0, 42)
 Instance.new("UICorner", InputContainer).CornerRadius = UDim.new(0, 8)
 
 local InputStroke = Instance.new("UIStroke", InputContainer)
-InputStroke.Color = Color3.fromRGB(255, 60, 60)
+InputStroke.Color = Color3.fromRGB(255, 110, 110)
 InputStroke.Thickness = 1
 
 local _0xKI = Instance.new("TextBox", InputContainer)
@@ -61,7 +61,7 @@ _0xKI.Position = UDim2.new(0, 12, 0, 0)
 _0xKI.Size = UDim2.new(0, 306, 0, 42)
 _0xKI.BackgroundTransparency = 1
 _0xKI.TextColor3 = Color3.fromRGB(255, 255, 255)
-_0xKI.PlaceholderColor3 = Color3.fromRGB(255, 150, 150)
+_0xKI.PlaceholderColor3 = Color3.fromRGB(255, 180, 180)
 _0xKI.Font = Enum.Font.Gotham
 _0xKI.TextSize = 13
 _0xKI.ClearTextOnFocus = false
@@ -71,14 +71,14 @@ local _0xSB = Instance.new("TextButton", _0xMF)
 _0xSB.Text = "Verify Key"
 _0xSB.Position = UDim2.new(0, 20, 0, 132)
 _0xSB.Size = UDim2.new(0, 158, 0, 38)
-_0xSB.BackgroundColor3 = Color3.fromRGB(220, 50, 50)
+_0xSB.BackgroundColor3 = Color3.fromRGB(255, 75, 75)
 _0xSB.TextColor3 = Color3.fromRGB(255, 255, 255)
 _0xSB.Font = Enum.Font.GothamBold
 _0xSB.TextSize = 13
 Instance.new("UICorner", _0xSB).CornerRadius = UDim.new(0, 8)
 
 local SubmitStroke = Instance.new("UIStroke", _0xSB)
-SubmitStroke.Color = Color3.fromRGB(255, 90, 90)
+SubmitStroke.Color = Color3.fromRGB(255, 140, 140)
 SubmitStroke.Thickness = 1
 
 -- Get Key Button (Açık Kırmızı Tema)
@@ -86,14 +86,14 @@ local _0xGK = Instance.new("TextButton", _0xMF)
 _0xGK.Text = "Get Key"
 _0xGK.Position = UDim2.new(0, 192, 0, 132)
 _0xGK.Size = UDim2.new(0, 158, 0, 38)
-_0xGK.BackgroundColor3 = Color3.fromRGB(220, 50, 50)
+_0xGK.BackgroundColor3 = Color3.fromRGB(255, 75, 75)
 _0xGK.TextColor3 = Color3.fromRGB(255, 255, 255)
 _0xGK.Font = Enum.Font.GothamBold
 _0xGK.TextSize = 13
 Instance.new("UICorner", _0xGK).CornerRadius = UDim.new(0, 8)
 
 local GetKeyStroke = Instance.new("UIStroke", _0xGK)
-GetKeyStroke.Color = Color3.fromRGB(255, 90, 90)
+GetKeyStroke.Color = Color3.fromRGB(255, 140, 140)
 GetKeyStroke.Thickness = 1
 
 -- Status Label for Error/Success feedback
@@ -103,7 +103,7 @@ StatusLabel.Position = UDim2.new(0, 20, 0, 185)
 StatusLabel.Size = UDim2.new(0, 330, 0, 15)
 StatusLabel.BackgroundTransparency = 1
 StatusLabel.Font = Enum.Font.GothamMedium
-StatusLabel.TextColor3 = Color3.fromRGB(255, 100, 100)
+StatusLabel.TextColor3 = Color3.fromRGB(255, 150, 150)
 StatusLabel.TextSize = 11
 StatusLabel.TextXAlignment = Enum.TextXAlignment.Center
 
@@ -111,7 +111,7 @@ StatusLabel.TextXAlignment = Enum.TextXAlignment.Center
 local LoaderFrame = Instance.new("Frame", _0xSG)
 LoaderFrame.Size = UDim2.new(0, 380, 0, 260)
 LoaderFrame.Position = UDim2.new(0.5, -190, -0.6, 0) 
-LoaderFrame.BackgroundColor3 = Color3.fromRGB(50, 15, 15) 
+LoaderFrame.BackgroundColor3 = Color3.fromRGB(90, 25, 25) 
 LoaderFrame.Visible = false
 LoaderFrame.Active = true
 LoaderFrame.Draggable = true
@@ -119,13 +119,13 @@ LoaderFrame.ClipsDescendants = true
 Instance.new("UICorner", LoaderFrame).CornerRadius = UDim.new(0, 12)
 
 local LoaderStroke = Instance.new("UIStroke", LoaderFrame)
-LoaderStroke.Color = Color3.fromRGB(200, 40, 40)
+LoaderStroke.Color = Color3.fromRGB(255, 90, 90)
 LoaderStroke.Thickness = 2.5
 
 local LoaderTitle = Instance.new("TextLabel", LoaderFrame)
 LoaderTitle.Text = "PULSE LOADER || V2"
 LoaderTitle.Size = UDim2.new(1, 0, 0, 55)
-LoaderTitle.TextColor3 = Color3.fromRGB(255, 230, 230)
+LoaderTitle.TextColor3 = Color3.fromRGB(255, 240, 240)
 LoaderTitle.BackgroundTransparency = 1
 LoaderTitle.Font = Enum.Font.GothamBold
 LoaderTitle.TextSize = 20
@@ -137,7 +137,7 @@ ScrollContainer.Position = UDim2.new(0, 10, 0, 60)
 ScrollContainer.BackgroundTransparency = 1
 ScrollContainer.CanvasSize = UDim2.new(0, 0, 0, 400)
 ScrollContainer.ScrollBarThickness = 3
-ScrollContainer.ScrollBarImageColor3 = Color3.fromRGB(220, 50, 50)
+ScrollContainer.ScrollBarImageColor3 = Color3.fromRGB(255, 75, 75)
 ScrollContainer.BorderSizePixel = 0
 
 local ScrollLayout = Instance.new("UIListLayout", ScrollContainer)
@@ -149,14 +149,14 @@ local function CreatePulseBtn(name, scriptURL)
     local btn = Instance.new("TextButton", ScrollContainer)
     btn.Text = name
     btn.Size = UDim2.new(0.9, 0, 0, 42)
-    btn.BackgroundColor3 = Color3.fromRGB(90, 25, 25) 
+    btn.BackgroundColor3 = Color3.fromRGB(130, 40, 40) 
     btn.TextColor3 = Color3.fromRGB(255, 255, 255)
     btn.Font = Enum.Font.GothamBold
     btn.TextSize = 17
     Instance.new("UICorner", btn)
     
     local btnStroke = Instance.new("UIStroke", btn)
-    btnStroke.Color = Color3.fromRGB(255, 70, 70) 
+    btnStroke.Color = Color3.fromRGB(255, 120, 120) 
     btnStroke.Thickness = 2
 
     btn.MouseButton1Click:Connect(function()
@@ -179,7 +179,7 @@ CreatePulseBtn("Legends Of Speed", "https://github.com/waxxan2/Legends-of-speed/
 -- Key Verification Event
 _0xSB.MouseButton1Click:Connect(function()
     if _0xKI.Text == _0xK then
-        StatusLabel.TextColor3 = Color3.fromRGB(100, 255, 170)
+        StatusLabel.TextColor3 = Color3.fromRGB(120, 255, 190)
         StatusLabel.Text = "Success! Loading loader..."
         task.wait(0.5)
         
@@ -192,7 +192,7 @@ _0xSB.MouseButton1Click:Connect(function()
             loaderEntry:Play()
         end)
     else
-        StatusLabel.TextColor3 = Color3.fromRGB(255, 100, 100)
+        StatusLabel.TextColor3 = Color3.fromRGB(255, 120, 120)
         StatusLabel.Text = "Invalid Key! Please try again."
         
         -- Shake animation
@@ -210,6 +210,6 @@ end)
 -- Get Key Action (Discord Link Copier)
 _0xGK.MouseButton1Click:Connect(function()
     setclipboard("https://discord.gg/wVF7ursHz")
-    StatusLabel.TextColor3 = Color3.fromRGB(100, 255, 170)
+    StatusLabel.TextColor3 = Color3.fromRGB(120, 255, 190)
     StatusLabel.Text = "Discord invite link copied!"
 end)
